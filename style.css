@@ -1,0 +1,33 @@
+:root {
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.sidebar-2__img {
+  background-image: url("https://source.unsplash.com/172x258");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 258px;
+  min-height: 172px;
+}
